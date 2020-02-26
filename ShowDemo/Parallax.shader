@@ -83,7 +83,7 @@ float step=2.0/12;
     float3 viewDir = normalize(i.viewDir);
     
     // 细分的层数
-    const int numLayers = 12;
+    const int numLayers = 30;
 
     // 单层步进的高度
     float layerHeight = 1.0 / numLayers;
